@@ -1,0 +1,8 @@
+.autotest
+History.txt
+Manifest.txt
+README.txt
+Rakefile
+lib/update_hints.rb
+test/sample.xml
+test/test_update_hints.rb

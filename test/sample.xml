@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rubygem>
+  <dependencies>
+    <runtime type="array">
+      <dependency>
+        <name>progressbar</name>
+        <requirements>&gt;= 0</requirements>
+      </dependency>
+    </runtime>
+    <development type="array">
+      <dependency>
+        <name>hoe</name>
+        <requirements>&gt;= 2.9.1</requirements>
+      </dependency>
+      <dependency>
+        <name>flexmock</name>
+        <requirements>&gt;= 0</requirements>
+      </dependency>
+    </development>
+  </dependencies>
+  <name>tracksperanto</name>
+  <downloads type="integer">14827</downloads>
+  <info>Tracksperanto is a universal 2D-track translator between many apps.</info>
+  <version-downloads type="integer">15</version-downloads>
+  <version>2.4.1</version>
+  <homepage-uri>http://guerilla-di.org/tracksperanto</homepage-uri>
+  <bug-tracker-uri nil="true"></bug-tracker-uri>
+  <source-code-uri nil="true"></source-code-uri>
+  <gem-uri>http://rubygems.org/gems/tracksperanto-2.4.1.gem</gem-uri>
+  <project-uri>http://rubygems.org/gems/tracksperanto</project-uri>
+  <authors>Julik Tarkhanov</authors>
+  <mailing-list-uri nil="true"></mailing-list-uri>
+  <documentation-uri nil="true"></documentation-uri>
+  <wiki-uri nil="true"></wiki-uri>
+</rubygem>
