@@ -4,7 +4,7 @@
 
 == DESCRIPTION:
 
-Quickly checks rubygems.org for a new version of the gem and advises the user on STDERR to install an update
+Quickly checks rubygems.org for a new version o a given gem and advises the user on STDERR to install an update
 
 == FEATURES/PROBLEMS:
 
