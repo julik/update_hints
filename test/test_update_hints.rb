@@ -15,7 +15,7 @@ class TestUpdateHints < Test::Unit::TestCase
     flexmock(UpdateHints).should_receive(:open).with("http://rubygems.org/api/v1/gems/tracksperanto.xml").once.and_return(xml)
     
     UpdateHints.version_check("tracksperanto", "1.2.3", output)
-    assert_equal "Your version of tracksperanto is probably out of date\n(the current version is 2.4.1, but you have 1.2.3).\nPlease consider updating (run `gem update tracksperanto`)", output
+    assert_equal "Your version of tracksperanto is probably out of date\n(the current version is 2.4.1, but you have 1.2.3).\nPlease consider updating (run `gem update tracksperanto`)\n", output
   end
   
   def test_version_check_stays_silent_on_success

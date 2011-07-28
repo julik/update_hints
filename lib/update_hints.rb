@@ -4,7 +4,7 @@ require "timeout"
 require "rexml/document"
 
 module UpdateHints
-  VERSION = '1.0.0'
+  VERSION = '1.0.1'
   GEMCUTTER_URI = "http://rubygems.org/api/v1/gems/%s.xml"
   
   # Checks whether rubygems.org has a new version of this specific gem
@@ -13,18 +13,22 @@ module UpdateHints
   # reason the method is run while the app is offline
   def self.version_check(gem_name, present_version_str, destination = $stderr)
     begin
-      latest_version = extract_version_from_xml(open(GEMCUTTER_URI % gem_name))
-      int_present, int_available = Version.new(present_version_str), Version.new(latest_version)
-      if int_available > int_present
-        destination << "Your version of #{gem_name} is probably out of date\n"
-        destination << "(the current version is #{latest_version}, but you have #{present_version_str}).\n"
-        destination << "Please consider updating (run `gem update #{gem_name}`)"
-      end
+      version_check_without_exception_suppression(gem_name, present_version_str, destination)
     rescue Exception
     end
   end
   
   private
+  
+  def self.version_check_without_exception_suppression(gem_name, present_version_str, destination)
+    latest_version = extract_version_from_xml(open(GEMCUTTER_URI % gem_name))
+    int_present, int_available = Version.new(present_version_str), Version.new(latest_version)
+    if int_available > int_present
+      destination << "Your version of #{gem_name} is probably out of date\n"
+      destination << "(the current version is #{latest_version}, but you have #{present_version_str}).\n"
+      destination << "Please consider updating (run `gem update #{gem_name}`)\n"
+    end
+  end
   
   # For stubbing
   def self.open(*any)
