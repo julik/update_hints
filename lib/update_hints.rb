@@ -2,6 +2,7 @@ require "net/http"
 require "open-uri"
 require "timeout"
 require "rexml/document"
+require "rubygems"
 
 module UpdateHints
   VERSION = '1.0.1'
@@ -22,7 +23,7 @@ module UpdateHints
   
   def self.version_check_without_exception_suppression(gem_name, present_version_str, destination)
     latest_version = extract_version_from_xml(open(GEMCUTTER_URI % gem_name))
-    int_present, int_available = Version.new(present_version_str), Version.new(latest_version)
+    int_present, int_available = Gem::Version.new(present_version_str), Gem::Version.new(latest_version)
     if int_available > int_present
       destination << "Your version of #{gem_name} is probably out of date\n"
       destination << "(the current version is #{latest_version}, but you have #{present_version_str}).\n"
@@ -33,24 +34,6 @@ module UpdateHints
   # For stubbing
   def self.open(*any)
     super
-  end
-  
-  #:nodoc:
-  class Version
-    include Comparable
-    
-    attr_reader :major, :minor, :tiny
-    def initialize(version_str)
-      @major, @minor, @tiny = version_str.split(".").map{|e| e.to_i }
-    end
-    
-    def <=>(other)
-      [:major, :minor, :tiny].each do | ver_part |
-        mine, theirs = send(ver_part), other.send(ver_part)
-        return mine <=> theirs unless mine == theirs
-      end
-      return 0
-    end
   end
   
   def self.extract_version_from_xml(io)
