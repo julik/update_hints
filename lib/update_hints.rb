@@ -23,7 +23,9 @@ module UpdateHints
   
   def self.version_check_without_exception_suppression(gem_name, present_version_str, destination)
     latest_version = extract_version_from_xml(open(GEMCUTTER_URI % gem_name))
-    int_present, int_available = Gem::Version.new(present_version_str), Gem::Version.new(latest_version)
+    # Gem::Version was known to throw when a frozen string is passed to the constructor, see
+    # https://github.com/rubygems/rubygems/commit/48f1d869510dcd325d6566df7d0147a086905380
+    int_present, int_available = Gem::Version.new(present_version_str.dup), Gem::Version.new(latest_version.dup)
     if int_available > int_present
       destination << "Your version of #{gem_name} is probably out of date\n"
       destination << "(the current version is #{latest_version}, but you have #{present_version_str}).\n"
