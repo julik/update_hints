@@ -5,7 +5,7 @@ require "rexml/document"
 require "rubygems"
 
 module UpdateHints
-  VERSION = '1.0.1'
+  VERSION = '1.0.2'
   GEMCUTTER_URI = "http://rubygems.org/api/v1/gems/%s.xml"
   
   # Checks whether rubygems.org has a new version of this specific gem

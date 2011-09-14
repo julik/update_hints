@@ -1,3 +1,7 @@
+=== 1.0.2 / 2011-05-25
+
+* Use the Gem::Version for version comparisons
+
 === 1.0.1 / 2011-05-25
 
 * End the last line of output with a newline (doh!)
