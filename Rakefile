@@ -1,14 +1,34 @@
 # -*- ruby -*-
 
 require 'rubygems'
-require 'hoe'
+require 'jeweler'
+require './lib/update_hints'
 
-Hoe.spec 'update_hints' do | s |
-  s.readme_file   = 'README.rdoc'
-  s.extra_rdoc_files  = FileList['*.rdoc'] + FileList['*.txt']
+
+Jeweler::Tasks.new do |gem|
+  gem.version = UpdateHints::VERSION
+  gem.name = "update_hints"
+  gem.summary = "Automatically check if a new version of your gem is available and notify users"
+  gem.email = "me@julik.nl"
+  gem.homepage = "http://github.com/julik/update_hints"
+  gem.authors = ["Julik Tarkhanov"]
+  gem.license = 'MIT'
   
-  s.developer('Julik Tarkhanov', 'me@julik.nl')
-  s.extra_dev_deps = {"flexmock" => ">=0"}
+  # Deps
+  gem.add_development_dependency "jeweler"
+  gem.add_development_dependency "rake"
+  gem.add_development_dependency "flexmock", "~>0.8"
 end
 
+Jeweler::RubygemsDotOrgTasks.new
+
+require 'rake/testtask'
+desc "Run all tests"
+Rake::TestTask.new("test") do |t|
+  t.libs << "test"
+  t.pattern = 'test/**/test_*.rb'
+  t.verbose = true
+end
+
+task :default => [ :test ]
 # vim: syntax=ruby

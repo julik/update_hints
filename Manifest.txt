@@ -1,8 +1,0 @@
-.autotest
-History.txt
-Manifest.txt
-README.rdoc
-Rakefile
-lib/update_hints.rb
-test/sample.xml
-test/test_update_hints.rb

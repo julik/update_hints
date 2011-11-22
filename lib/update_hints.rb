@@ -2,7 +2,7 @@ require "net/http"
 require "open-uri"
 require "timeout"
 require "rexml/document"
-require "rubygems"
+require "rubygems" unless defined?(Gem)
 
 module UpdateHints
   VERSION = '1.0.2'
