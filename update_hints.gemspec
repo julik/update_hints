@@ -9,19 +9,21 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Julik Tarkhanov"]
-  s.date = "2011-11-22"
+  s.date = "2011-11-26"
   s.email = "me@julik.nl"
   s.extra_rdoc_files = [
     "README.rdoc"
   ]
   s.files = [
+    ".travis.yml",
+    "Gemfile",
     "History.txt",
-    "Manifest.txt",
     "README.rdoc",
     "Rakefile",
     "lib/update_hints.rb",
     "test/sample.xml",
-    "test/test_update_hints.rb"
+    "test/test_update_hints.rb",
+    "update_hints.gemspec"
   ]
   s.homepage = "http://github.com/julik/update_hints"
   s.licenses = ["MIT"]
