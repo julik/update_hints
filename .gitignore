@@ -8,3 +8,5 @@ coverage.*
 *.rbc
 .idea
 .yardoc
+Gemfile.lock
+.autotest
