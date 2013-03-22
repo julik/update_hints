@@ -5,7 +5,7 @@ require "rexml/document"
 require "rubygems" unless defined?(Gem)
 
 module UpdateHints
-  VERSION = '1.0.2'
+  VERSION = '1.0.3'
   
   # Checks whether rubygems.org has a new version of this specific gem
   # and prints how an update can be obtained if need be.
@@ -33,7 +33,7 @@ module UpdateHints
     end
   end
   
-  class Checker
+  class Checker #:nodoc: :all
     GEMCUTTER_URI = "http://rubygems.org/api/v1/versions/%s.xml"
     
     def initialize(gem_name)
