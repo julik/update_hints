@@ -6,10 +6,6 @@
 
 * Use the Gem::Version for version comparisons
 
-=== 1.0.2
-
-* Use the Gem::Version for version comparisons
-
 === 1.0.1
 
 * End the last line of output with a newline (doh!)
