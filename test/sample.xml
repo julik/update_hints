@@ -1,35 +1,1111 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rubygem>
-  <dependencies>
-    <runtime type="array">
-      <dependency>
-        <name>progressbar</name>
-        <requirements>&gt;= 0</requirements>
-      </dependency>
-    </runtime>
-    <development type="array">
-      <dependency>
-        <name>hoe</name>
-        <requirements>&gt;= 2.9.1</requirements>
-      </dependency>
-      <dependency>
-        <name>flexmock</name>
-        <requirements>&gt;= 0</requirements>
-      </dependency>
-    </development>
-  </dependencies>
-  <name>tracksperanto</name>
-  <downloads type="integer">14827</downloads>
-  <info>Tracksperanto is a universal 2D-track translator between many apps.</info>
-  <version-downloads type="integer">15</version-downloads>
-  <version>2.4.1</version>
-  <homepage-uri>http://guerilla-di.org/tracksperanto</homepage-uri>
-  <bug-tracker-uri nil="true"></bug-tracker-uri>
-  <source-code-uri nil="true"></source-code-uri>
-  <gem-uri>http://rubygems.org/gems/tracksperanto-2.4.1.gem</gem-uri>
-  <project-uri>http://rubygems.org/gems/tracksperanto</project-uri>
-  <authors>Julik Tarkhanov</authors>
-  <mailing-list-uri nil="true"></mailing-list-uri>
-  <documentation-uri nil="true"></documentation-uri>
-  <wiki-uri nil="true"></wiki-uri>
-</rubygem>
+<versions type="array">
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2013-03-16T00:00:00Z</built-at>
+    <description>Converts 2D track exports between different apps like Flame, MatchMover, PFTrack...</description>
+    <downloads-count type="integer">61</downloads-count>
+    <number>3.2.2</number>
+    <summary>A universal 2D tracks converter</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses type="array">
+      <license>MIT</license>
+    </licenses>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2013-03-14T00:00:00Z</built-at>
+    <description>Converts 2D track exports between different apps like Flame, MatchMover, PFTrack...</description>
+    <downloads-count type="integer">61</downloads-count>
+    <number>3.2.1</number>
+    <summary>A universal 2D tracks converter</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses type="array">
+      <license>MIT</license>
+    </licenses>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2013-03-02T00:00:00Z</built-at>
+    <description>Converts 2D track exports between different apps like Flame, MatchMover, PFTrack...</description>
+    <downloads-count type="integer">100</downloads-count>
+    <number>3.2.0</number>
+    <summary>A universal 2D tracks converter</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses type="array">
+      <license>MIT</license>
+    </licenses>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2013-01-14T00:00:00Z</built-at>
+    <description>Converts 2D track exports between different apps like Flame, MatchMover, PFTrack...</description>
+    <downloads-count type="integer">226</downloads-count>
+    <number>3.1.0</number>
+    <summary>A universal 2D tracks converter</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses type="array">
+      <license>MIT</license>
+    </licenses>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2012-10-30T00:00:00Z</built-at>
+    <description>Converts 2D track exports between different apps like Flame, MatchMover, PFTrack...</description>
+    <downloads-count type="integer">419</downloads-count>
+    <number>3.0.1</number>
+    <summary>A universal 2D tracks converter</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2012-10-23T00:00:00Z</built-at>
+    <description>Converts 2D track exports between different apps like Flame, MatchMover, PFTrack...</description>
+    <downloads-count type="integer">388</downloads-count>
+    <number>3.0.0</number>
+    <summary>A universal 2D tracks converter</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2012-10-01T00:00:00Z</built-at>
+    <description>Converts 2D track exports between different apps like Flame, MatchMover, PFTrack...</description>
+    <downloads-count type="integer">616</downloads-count>
+    <number>2.12.0</number>
+    <summary>A universal 2D tracks converter</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2012-09-12T00:00:00Z</built-at>
+    <description>Converts 2D track exports between different apps like Flame, MatchMover, PFTrack...</description>
+    <downloads-count type="integer">358</downloads-count>
+    <number>2.11.3</number>
+    <summary>A universal 2D tracks converter</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2012-07-06T00:00:00Z</built-at>
+    <description>Converts 2D track exports between different apps like Flame, MatchMover, PFTrack...</description>
+    <downloads-count type="integer">348</downloads-count>
+    <number>2.11.2</number>
+    <summary>A universal 2D tracks converter</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2012-07-06T00:00:00Z</built-at>
+    <description>Converts 2D track exports between different apps like Flame, MatchMover, PFTrack...</description>
+    <downloads-count type="integer">298</downloads-count>
+    <number>2.11.1</number>
+    <summary>A universal 2D tracks converter</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2012-07-06T00:00:00Z</built-at>
+    <description>Converts 2D track exports between different apps like Flame, MatchMover, PFTrack...</description>
+    <downloads-count type="integer">313</downloads-count>
+    <number>2.11.0</number>
+    <summary>A universal 2D tracks converter</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2012-05-30T00:00:00Z</built-at>
+    <description>Converts 2D track exports between different apps like Flame, MatchMover, PFTrack...</description>
+    <downloads-count type="integer">344</downloads-count>
+    <number>2.10.0</number>
+    <summary>A universal 2D tracks converter</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2012-04-10T00:00:00Z</built-at>
+    <description>Converts 2D track exports between different apps like Flame, MatchMover, PFTrack...</description>
+    <downloads-count type="integer">443</downloads-count>
+    <number>2.9.9</number>
+    <summary>A universal 2D tracks converter</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2012-03-21T00:00:00Z</built-at>
+    <description>Converts 2D track exports between different apps like Flame, MatchMover, PFTrack...</description>
+    <downloads-count type="integer">426</downloads-count>
+    <number>2.9.8</number>
+    <summary>A universal 2D tracks converter</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2012-03-17T00:00:00Z</built-at>
+    <description>Converts 2D track exports between different apps like Flame, MatchMover, PFTrack...</description>
+    <downloads-count type="integer">416</downloads-count>
+    <number>2.9.7</number>
+    <summary>A universal 2D tracks converter</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2012-03-14T00:00:00Z</built-at>
+    <description>Converts 2D track exports between different apps like Flame, MatchMover, PFTrack...</description>
+    <downloads-count type="integer">419</downloads-count>
+    <number>2.9.6</number>
+    <summary>A universal 2D tracks converter</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2012-02-16T00:00:00Z</built-at>
+    <description>Converts 2D track exports between different apps like Flame, MatchMover, PFTrack...</description>
+    <downloads-count type="integer">438</downloads-count>
+    <number>2.9.5</number>
+    <summary>A universal 2D tracks converter</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2012-02-08T00:00:00Z</built-at>
+    <description>Converts 2D track exports between different apps like Flame, MatchMover, PFTrack...</description>
+    <downloads-count type="integer">435</downloads-count>
+    <number>2.9.4</number>
+    <summary>A universal 2D tracks converter</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2012-01-28T00:00:00Z</built-at>
+    <description>Converts 2D track exports between different apps like Flame, MatchMover, PFTrack...</description>
+    <downloads-count type="integer">449</downloads-count>
+    <number>2.9.3</number>
+    <summary>A universal 2D tracks converter</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2012-01-27T00:00:00Z</built-at>
+    <description>Converts 2D track exports between different apps like Flame, MatchMover, PFTrack...</description>
+    <downloads-count type="integer">419</downloads-count>
+    <number>2.9.2</number>
+    <summary>A universal 2D tracks converter</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2012-01-27T00:00:00Z</built-at>
+    <description>Converts 2D track exports between different apps like Flame, MatchMover, PFTrack...</description>
+    <downloads-count type="integer">434</downloads-count>
+    <number>2.9.1</number>
+    <summary>A universal 2D tracks converter</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2012-01-23T00:00:00Z</built-at>
+    <description>Converts 2D track exports between different apps like Flame, MatchMover, PFTrack...</description>
+    <downloads-count type="integer">431</downloads-count>
+    <number>2.9.0</number>
+    <summary>A universal 2D tracks converter</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2012-01-13T00:00:00Z</built-at>
+    <description>Converts 2D track exports between different apps like Flame, MatchMover, PFTrack...</description>
+    <downloads-count type="integer">433</downloads-count>
+    <number>2.8.6</number>
+    <summary>A universal 2D tracks converter</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2011-12-25T00:00:00Z</built-at>
+    <description>Converts 2D track exports between different apps like Flame, MatchMover, PFTrack...</description>
+    <downloads-count type="integer">462</downloads-count>
+    <number>2.8.5</number>
+    <summary>A universal 2D tracks converter</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2011-11-25T00:00:00Z</built-at>
+    <description>Converts 2D track exports between different apps like Flame, MatchMover, PFTrack...</description>
+    <downloads-count type="integer">466</downloads-count>
+    <number>2.8.4</number>
+    <summary>A universal 2D tracks converter</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2011-11-20T00:00:00Z</built-at>
+    <description>Converts 2D track exports between different apps like Flame, MatchMover, PFTrack...</description>
+    <downloads-count type="integer">457</downloads-count>
+    <number>2.8.2</number>
+    <summary>A universal 2D tracks converter</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2011-11-19T00:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">462</downloads-count>
+    <number>2.8.1</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2011-11-10T00:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">458</downloads-count>
+    <number>2.8.0</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2011-10-12T00:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">484</downloads-count>
+    <number>2.7.0</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2011-07-31T00:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">505</downloads-count>
+    <number>2.6.3</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2011-07-30T00:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">488</downloads-count>
+    <number>2.6.2</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2011-07-22T00:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">498</downloads-count>
+    <number>2.6.1</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2011-07-11T00:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">496</downloads-count>
+    <number>2.6.0</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2011-06-14T00:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">521</downloads-count>
+    <number>2.5.0</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2011-05-19T22:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">506</downloads-count>
+    <number>2.4.1</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2011-05-12T22:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">488</downloads-count>
+    <number>2.3.3</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2011-05-09T22:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">491</downloads-count>
+    <number>2.3.2</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2011-05-07T22:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">499</downloads-count>
+    <number>2.3.1</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2011-04-16T22:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">506</downloads-count>
+    <number>2.3.0</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2011-04-05T22:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">510</downloads-count>
+    <number>2.2.4</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2011-04-01T22:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">508</downloads-count>
+    <number>2.2.2</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2011-02-28T23:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">523</downloads-count>
+    <number>2.2.0</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2011-02-13T23:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">519</downloads-count>
+    <number>2.1.1</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2011-02-07T23:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">505</downloads-count>
+    <number>2.1.0</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2011-02-01T23:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">646</downloads-count>
+    <number>2.0.2</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2011-01-26T23:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">655</downloads-count>
+    <number>2.0.1</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2011-01-26T23:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">641</downloads-count>
+    <number>2.0.0</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2010-11-28T23:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">672</downloads-count>
+    <number>1.9.9</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2010-08-10T22:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">768</downloads-count>
+    <number>1.9.8</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2010-06-16T22:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">748</downloads-count>
+    <number>1.9.6</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2010-05-16T22:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">752</downloads-count>
+    <number>1.9.5</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2010-04-15T22:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">768</downloads-count>
+    <number>1.9.4</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2010-04-14T22:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">770</downloads-count>
+    <number>1.9.3</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2010-04-01T22:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">776</downloads-count>
+    <number>1.9.2</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2010-03-20T23:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">787</downloads-count>
+    <number>1.9.1</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2010-03-20T23:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">789</downloads-count>
+    <number>1.9.0</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2010-03-09T23:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">776</downloads-count>
+    <number>1.8.4</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2010-03-03T23:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">771</downloads-count>
+    <number>1.8.2</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2010-02-17T23:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">788</downloads-count>
+    <number>1.8.1</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2010-02-17T23:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">773</downloads-count>
+    <number>1.8.0</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2010-02-16T23:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">785</downloads-count>
+    <number>1.7.5</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2010-02-08T23:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">782</downloads-count>
+    <number>1.7.4</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2010-02-01T23:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">785</downloads-count>
+    <number>1.7.3</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2010-01-30T23:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">811</downloads-count>
+    <number>1.7.2</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2010-01-27T23:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">806</downloads-count>
+    <number>1.7.1</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2010-01-23T23:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">795</downloads-count>
+    <number>1.7.0</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2010-01-20T23:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">793</downloads-count>
+    <number>1.6.9</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2010-01-12T23:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">800</downloads-count>
+    <number>1.6.8</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2010-01-12T23:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">802</downloads-count>
+    <number>1.6.7</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2009-12-06T23:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">786</downloads-count>
+    <number>1.6.6</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2009-11-27T23:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">800</downloads-count>
+    <number>1.6.5</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2009-11-25T23:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">820</downloads-count>
+    <number>1.6.4</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2009-11-24T23:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">800</downloads-count>
+    <number>1.6.3</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2009-11-22T23:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">819</downloads-count>
+    <number>1.6.2</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2009-11-22T23:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">821</downloads-count>
+    <number>1.6.1</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2009-11-16T02:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">804</downloads-count>
+    <number>1.6.0</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2009-11-08T02:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">786</downloads-count>
+    <number>1.5.7</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2009-11-08T02:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">799</downloads-count>
+    <number>1.5.6</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2009-11-08T02:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">810</downloads-count>
+    <number>1.5.5</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2009-10-25T02:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">784</downloads-count>
+    <number>1.5.4</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2009-10-18T01:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">811</downloads-count>
+    <number>1.5.3</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2009-10-11T01:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">805</downloads-count>
+    <number>1.5.2</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2009-10-10T01:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">806</downloads-count>
+    <number>1.5.1</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2009-10-09T01:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">795</downloads-count>
+    <number>1.5.0</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2009-10-02T01:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">804</downloads-count>
+    <number>1.4.0</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2009-09-24T01:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">800</downloads-count>
+    <number>1.3.1</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2009-09-24T01:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">808</downloads-count>
+    <number>1.3.0</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2009-09-22T01:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">805</downloads-count>
+    <number>1.2.6</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2009-09-21T01:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">812</downloads-count>
+    <number>1.2.4</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2009-09-21T01:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">809</downloads-count>
+    <number>1.2.3</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2009-09-21T01:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">800</downloads-count>
+    <number>1.2.2</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2009-09-21T01:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">791</downloads-count>
+    <number>1.2.1</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2009-09-21T01:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.</description>
+    <downloads-count type="integer">799</downloads-count>
+    <number>1.2.0</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps.</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2009-09-08T01:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.  Import support: * Shake script (one tracker node per tracker) * Shake tracker node export (textfile with many tracks per file), also exported by Boujou and others * PFTrack 2dt files * Syntheyes 2D tracking data exports (UV coordinates)  Export support:  * Shake text file (many trackers per file), also accepted by Boujou * PFTrack 2dt file (with residuals) * Syntheyes 2D tracking data import (UV coordinates)  The main way to use Tracksperanto is to use the supplied "tracksperanto" binary, like so:  tracksperanto -f ShakeScript -w 1920 -h 1080 /Films/Blockbuster/Shots/001/script.shk  ShakeScript is the name of the translator that will be used to read the file (many apps export tracks as .txt files so there is no way for us to autodetect them all). -w and -h stand for Width and Height and define the size of your comp (different tracking apps use different coordinate systems and we need to know the size of the comp to properly convert these). You also have additional options like -xs, -ys and --slip - consult the usage info for the tracksperanto binary.  The converted files will be saved in the same directory as the source, if resulting converted files already exist ++they will be overwritten without warning++.</description>
+    <downloads-count type="integer">802</downloads-count>
+    <number>1.1.1</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2009-09-07T01:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.  Import support: * Shake script (one tracker node per tracker) * Shake tracker node export (textfile with many tracks per file), also exported by Boujou and others * PFTrack 2dt files * Syntheyes 2D tracking data exports (UV coordinates)  Export support:  * Shake text file (many trackers per file), also accepted by Boujou * PFTrack 2dt file (with residuals) * Syntheyes 2D tracking data import (UV coordinates)  The main way to use Tracksperanto is to use the supplied "tracksperanto" binary, like so:  tracksperanto -f ShakeScript -w 1920 -h 1080 /Films/Blockbuster/Shots/001/script.shk  ShakeScript is the name of the translator that will be used to read the file (many apps export tracks as .txt files so there is no way for us to autodetect them all). -w and -h stand for Width and Height and define the size of your comp (different tracking apps use different coordinate systems and we need to know the size of the comp to properly convert these). You also have additional options like -xs, -ys and --slip - consult the usage info for the tracksperanto binary.  The converted files will be saved in the same directory as the source, if resulting converted files already exist ++they will be overwritten without warning++.</description>
+    <downloads-count type="integer">790</downloads-count>
+    <number>1.1.0</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2009-09-06T01:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.  Import support: * Shake script (one tracker node per tracker) * Shake tracker node export (textfile with many tracks per file), also exported by Boujou and others * PFTrack 2dt files * Syntheyes 2D tracking data exports (UV coordinates)  Export support:  * Shake text file (many trackers per file), also accepted by Boujou * PFTrack 2dt file (with residuals) * Syntheyes 2D tracking data import (UV coordinates)  The main way to use Tracksperanto is to use the supplied "tracksperanto" binary, like so:  tracksperanto -f ShakeScript -w 1920 -h 1080 /Films/Blockbuster/Shots/001/script.shk  ShakeScript is the name of the translator that will be used to read the file (many apps export tracks as .txt files so there is no way for us to autodetect them all). -w and -h stand for Width and Height and define the size of your comp (different tracking apps use different coordinate systems and we need to know the size of the comp to properly convert these). You also have additional options like -xs, -ys and --slip - consult the usage info for the tracksperanto binary.  The converted files will be saved in the same directory as the source, if resulting converted files already exist ++they will be overwritten without warning++.</description>
+    <downloads-count type="integer">789</downloads-count>
+    <number>1.0.6</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2009-09-06T01:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.  Import support: * Shake script (one tracker node per tracker) * Shake tracker node export (textfile with many tracks per file), also exported by Boujou and others * PFTrack 2dt files * Syntheyes 2D tracking data exports (UV coordinates)  Export support:  * Shake text file (many trackers per file), also accepted by Boujou * PFTrack 2dt file (with residuals) * Syntheyes 2D tracking data import (UV coordinates)  The main way to use Tracksperanto is to use the supplied "tracksperanto" binary, like so:  tracksperanto -f ShakeScript -w 1920 -h 1080 /Films/Blockbuster/Shots/001/script.shk  ShakeScript is the name of the translator that will be used to read the file (many apps export tracks as .txt files so there is no way for us to autodetect them all). -w and -h stand for Width and Height and define the size of your comp (different tracking apps use different coordinate systems and we need to know the size of the comp to properly convert these). You also have additional options like -xs, -ys and --slip - consult the usage info for the tracksperanto binary.  The converted files will be saved in the same directory as the source, if resulting converted files already exist ++they will be overwritten without warning++.</description>
+    <downloads-count type="integer">780</downloads-count>
+    <number>1.0.4</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2009-09-02T01:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.  Import support: * Shake script (one tracker node per tracker) * Shake tracker node export (textfile with many tracks per file), also exported by Boujou and others * PFTrack 2dt files * Syntheyes 2D tracking data exports (UV coordinates)  Export support:  * Shake text file (many trackers per file), also accepted by Boujou * PFTrack 2dt file (with residuals) * Syntheyes 2D tracking data import (UV coordinates)  The main way to use Tracksperanto is to use the supplied "tracksperanto" binary, like so:  tracksperanto -f ShakeScript -w 1920 -h 1080 /Films/Blockbuster/Shots/001/script.shk  ShakeScript is the name of the translator that will be used to read the file (many apps export tracks as .txt files so there is no way for us to autodetect them all). -w and -h stand for Width and Height and define the size of your comp (different tracking apps use different coordinate systems and we need to know the size of the comp to properly convert these). You also have additional options like -xs, -ys and --slip - consult the usage info for the tracksperanto binary.  The converted files will be saved in the same directory as the source, if resulting converted files already exist ++they will be overwritten without warning++.</description>
+    <downloads-count type="integer">785</downloads-count>
+    <number>1.0.2</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2009-08-31T01:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.  Import support: * Shake script (one tracker node per tracker) * Shake tracker node export (textfile with many tracks per file), also exported by Boujou and others * PFTrack 2dt files * Syntheyes 2D tracking data exports (UV coordinates)  Export support:  * Shake text file (many trackers per file), also accepted by Boujou * PFTrack 2dt file (with residuals) * Syntheyes 2D tracking data import (UV coordinates)  The main way to use Tracksperanto is to use the supplied "tracksperanto" binary, like so:  tracksperanto -f ShakeScript -w 1920 -h 1080 /Films/Blockbuster/Shots/001/script.shk  ShakeScript is the name of the translator that will be used to read the file (many apps export tracks as .txt files so there is no way for us to autodetect them all). -w and -h stand for Width and Height and define the size of your comp (different tracking apps use different coordinate systems and we need to know the size of the comp to properly convert these). You also have additional options like -xs, -ys and --slip - consult the usage info for the tracksperanto binary.  The converted files will be saved in the same directory as the source, if resulting converted files already exist ++they will be overwritten without warning++.</description>
+    <downloads-count type="integer">793</downloads-count>
+    <number>1.0.1</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+  <version>
+    <authors>Julik Tarkhanov</authors>
+    <built-at type="datetime">2009-08-31T01:00:00Z</built-at>
+    <description>Tracksperanto is a universal 2D-track translator between many apps.  Import support: * Shake script (one tracker node per tracker) * Shake tracker node export (textfile with many tracks per file), also exported by Boujou and others * PFTrack 2dt files * Syntheyes 2D tracking data exports (UV coordinates)  Export support:  * Shake text file (many trackers per file), also accepted by Boujou * PFTrack 2dt file (with residuals) * Syntheyes 2D tracking data import (UV coordinates)  The main way to use Tracksperanto is to use the supplied "tracksperanto" binary, like so:  tracksperanto -f ShakeScript -w 1920 -h 1080 /Films/Blockbuster/Shots/001/script.shk  ShakeScript is the name of the translator that will be used to read the file (many apps export tracks as .txt files so there is no way for us to autodetect them all). -w and -h stand for Width and Height and define the size of your comp (different tracking apps use different coordinate systems and we need to know the size of the comp to properly convert these). You also have additional options like -xs, -ys and --slip - consult the usage info for the tracksperanto binary.  The converted files will be saved in the same directory as the source, if resulting converted files already exist ++they will be overwritten without warning++.</description>
+    <downloads-count type="integer">787</downloads-count>
+    <number>1.0.0</number>
+    <summary>Tracksperanto is a universal 2D-track translator between many apps</summary>
+    <platform>ruby</platform>
+    <prerelease type="boolean">false</prerelease>
+    <licenses nil="true"/>
+  </version>
+</versions>
